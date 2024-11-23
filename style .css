@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+    box-sizing: border-box;
+/* display: inline; */
+    
+}
+body{
+    background: linear-gradient(0deg,cyan,gray);
+    padding: 20px;
+
+}
+.container{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    /* width: 100%; */
+    /* height: 100vh; */
+    /* background: linear-gradient(0deg,cyan,gray); */
+}
+
+.input{
+
+    border-radius: 10px;
+    background-color: wheat;
+    width: 350px;
+    /* height: 75px; */
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+input{
+    flex: 1;
+    margin: 5px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: medium;
+    /* position: relative; */
+
+}
+button{
+    border: none;
+    background-color:gray;
+    color: honeydew;
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-size: medium;
+    cursor: pointer;
+}
+.list{
+    border-radius: 7px;
+    background-color: wheat;
+    width: 350px;
+    /* height: 75px; */
+    /* padding: 10px; */
+    /* list-style: none; */
+    margin-bottom: 50px;
+    
+    
+
+}
+/* #list-item{
+    height: 100%;
+    widows: 100%;
+    display: flex;
+    flex-direction: column;
+
+} */
+
+li{
+    /* margin: 10px ; */
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+    user-select: none;
+    margin: 12px;
+    /* width: 100% ; */
+    
+    
+    
+}
+li:hover{
+    opacity: 80%;
+
+}
+.complete{
+text-decoration: line-through;
+opacity: 80%;
+}
+li::before{
+content: '';
+position: absolute; 
+height: 20px;
+width: 20px;
+background-image: url(op.jpg);
+/* background: \u00d7; */
+background-size:cover ;
+background-position: center;
+border-radius: 50%;
+/* top: 0px; */
+left: -30px;
+}
+
+ ul li span {
+    position: absolute;
+    right: 0;
+    top: -5px;
+    /* width: 40px; */
+    /* height: 0px; */
+    font-size: 22px;
+    color: #555;
+    cursor: pointer;
+    user-select: none;
+    /* line-height: 40px; */
+    text-align: center;
+    margin-left: 5px;
+
+}
+span:hover{
+    color: lightcoral;
+}
+

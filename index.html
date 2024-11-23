@@ -5,26 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style .css">
 </head>
 
 <body>
-    <div class="content">
-        <button class="btn" onclick="openPopup()">submit</button>
-        <div class="popup" id="popup">
-            <h1>success!</h1>
-            <button onclick="closePopup()">ok</button>
+    <div class="container">
+        <div class="input">
+            <input type="text" id="inputBox" placeholder="create a task">
+            <button onclick="create()" >create</button>
+        </div>
+        <div class="list">
+            <ul id="list-item">
+                <!-- <li id="complete">hi</li>
+                <li id="incomplete">hi</li> -->
+            </ul>
         </div>
     </div>
-
-    <script>let popup = document.getElementById("popup")
-        function openPopup() {
-            popup.classList.add("open");
-        }
-        function closePopup() {
-            popup.classList.remove("open");
-        }</script>
+    <script src="script.js"></script>
 </body>
 
 </html>
