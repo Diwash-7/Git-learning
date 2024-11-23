@@ -1,0 +1,52 @@
+body{
+    color: rgb(63, 63, 63);
+    height: 100vh;
+    background-image: url(/Graphics/IMG_2072.jpg) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    border-radius: 10px;
+    filter: none;
+    width: 250px;
+    height: 380px;
+    border: 10px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+form p{
+    font-size: smaller;
+}
+form input{
+    border: solid rgb(94, 94, 94) 1px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 128, 128, 0);w
+}
+
+.btn{
+    font-weight: bold;
+    letter-spacing:1px;
+    color: white;
+    width: 90px;
+    height: 25px;
+    align-self: center;
+    border: none;
+    background-color:#7A4FB3;
+    border-radius:2px;
+
+}
+.btn:hover{
+    background-color:rgb(94, 62, 136);
+    cursor: pointer;
+    filter: drop-shadow(0px 2px 1px rgb(94, 62, 136)) ;
+}
+}
+.btn:active{
+filter: opacity(70%) ;
+}
